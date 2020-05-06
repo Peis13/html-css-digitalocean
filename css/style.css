@@ -1,3 +1,57 @@
+/* COMMON */
+
+/* tag */
 body {
   font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: #031b4eb3;
 }
+
+ul {
+  margin: 0;
+}
+
+a {
+  color: #415378;
+}
+
+/* class */
+
+/* color palette */
+._cta {
+  color: #2285fd;
+}
+
+._secondary {
+  color: #fff;
+  background-image: linear-gradient(to top, #001e9a, #022ea7, #063db3, #0f4bbf, #1859cb);
+}
+
+._alternative {
+  color: #ffffff80;
+  background-color: #031c4e;
+}
+/* END COMMON */
+
+
+/* HEADER */
+._nav {
+  min-height: 70px;
+  line-height: 70px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 5px lightgray;
+}
+
+._logo img {
+  height: 30px;
+}
+
+.btn {
+  border-color: #2285fd;
+}
+
+._burger {
+  color: #2285fd;
+  padding-right: 10px;
+}
+/* END HEADER */
