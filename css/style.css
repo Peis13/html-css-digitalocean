@@ -27,6 +27,12 @@ h2, h3, h5 {
   color: #031c4e;
 }
 
+main ._secondary h2,
+main ._secondary h3,
+main ._secondary h5 {
+  color: #fff;
+}
+
 ul {
   margin: 0;
   list-style: none;
@@ -68,6 +74,11 @@ a {
 ._alternative {
   color: #ffffff80;
   background-color: #031c4e;
+}
+
+
+._opaque {
+  opacity: 0.7;
 }
 
 ._bg_gray {
@@ -115,10 +126,6 @@ a {
   margin-top: 70px;
 }
 
-._slogan p {
-  opacity: 0.7;
-}
-
 /* form */
 ._form-section {
   border-radius: 5px;
@@ -151,7 +158,6 @@ a {
 
 
 /* MAIN */
-
 main a::after {
   content: '>';
   margin-left: 10px;
@@ -212,6 +218,22 @@ main ._item img {
 }
 /* end Organization */
 
+/* Cities */
+._single-city {
+  font-size: 12px;
+  line-height: 12px;
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+}
+
+._single-city:last-child {
+  border: none;
+}
+
+._test-speed a {
+  color: #00becc;
+}
+/* end Cities */
 /* END MAIN */
 
 
@@ -256,6 +278,8 @@ main ._item img {
     margin: auto;
   }
   /* end Deployment */
+
+  /* Organization */
   ._carousel img {
     width: 80%;
     margin: 20px;
@@ -265,9 +289,20 @@ main ._item img {
     font-size: 40px;
     display: inline-block;
   }
-  /* Organization */
-
   /* end Organization */
   /* END MAIN */
+}
+
+/* Lg */
+@media screen and ( min-width: 1200px ) {
+
+  /* Cities */
+  ._cities-group:first-child {
+    padding-right: 30px;
+  }
+
+  ._cities-group:last-child {
+    padding-left: 30px;
+  }
 }
 /* END MEDIA QUERY */
