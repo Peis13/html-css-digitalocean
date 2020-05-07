@@ -1,10 +1,19 @@
 /* COMMON */
 
-/* tag */
 body {
   font-family: 'Roboto', sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   color: #031b4eb3;
+}
+
+h1 {
+  font-size: 70px;
+
+}
+
+h3 {
+  font-size: 30px;
+  font-weight: 700;
 }
 
 ul {
@@ -15,11 +24,19 @@ a {
   color: #415378;
 }
 
-/* class */
+/* Maring & Padding */
+._section {
+  padding: 50px 0;
+}
 
 /* color palette */
 ._cta {
   color: #2285fd;
+}
+
+._primary {
+  color: #031b4eb3;
+  background-color: #fff;
 }
 
 ._secondary {
@@ -31,13 +48,20 @@ a {
   color: #ffffff80;
   background-color: #031c4e;
 }
+
+._caption {
+  color: #415378;
+  font-size: 14px;
+}
 /* END COMMON */
 
-
 /* HEADER */
+
+/* Navbar */
 ._nav {
   min-height: 70px;
   line-height: 70px;
+  font-size: 16px;
   background-color: #ffffff;
   box-shadow: 0 2px 5px lightgray;
 }
@@ -47,11 +71,55 @@ a {
 }
 
 .btn {
+  border-radius: 5px;
+}
+
+._sing-up {
   border-color: #2285fd;
 }
 
+
 ._burger {
-  color: #2285fd;
   padding-right: 10px;
+}
+
+/* Jumbotron */
+._jumbo {
+  background-image: url(../img/bg-home-1-d54581d7.jpg);
+  background-position: bottom;
+  background-size: cover;
+  margin-top: 70px;
+}
+
+._slogan p {
+  opacity: 0.7;
+}
+
+/* form */
+._form-section {
+  border-radius: 5px;
+  padding: 20px;
+}
+
+._form {
+  margin-bottom: 20px;
+}
+
+._create {
+  background-color: #2285fd;
+}
+
+._sing-google {
+  border: none;
+  box-shadow: 1px 1px 2px lightgray;
+  position: relative;
+}
+
+._sing-google img {
+  height: 20px;
+  position: absolute;
+  top: 50%;
+  left: 12px;
+  transform: translate( 0, -50% );
 }
 /* END HEADER */
