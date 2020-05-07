@@ -3,7 +3,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
-  color: #031b4eb3;
+  color: #606e8b;
 }
 
 h1 {
@@ -19,8 +19,17 @@ h4 {
   color: #828ca4;
 }
 
+h5 {
+  font-size: 16px;
+}
+
+h2, h3, h5 {
+  color: #031c4e;
+}
+
 ul {
   margin: 0;
+  list-style: none;
 }
 
 a {
@@ -30,6 +39,15 @@ a {
 /* Maring & Padding */
 ._section {
   padding: 50px 0;
+}
+
+._intro {
+  margin-bottom: 50px;
+}
+
+._item {
+  margin-bottom: 20px;
+  text-align: left;
 }
 
 /* color palette */
@@ -107,9 +125,6 @@ a {
   padding: 20px;
 }
 
-._form {
-  margin-bottom: 20px;
-}
 
 ._create {
   background-color: #2285fd;
@@ -143,6 +158,9 @@ main a::after {
 }
 
 /* Partners */
+#_partners {
+  padding-bottom: 20px;
+}
 ._partners li {
   padding: 20px;
   width: calc( ( 100% / 2 ) - 10px );
@@ -152,6 +170,48 @@ main a::after {
   width: 100%;
 }
 /* end Partners */
+
+/* Deployment */
+.container-fluid {
+  padding-left: 0;
+}
+
+/* services list */
+._services {
+  padding-left: 10px;
+  border-left: 1px solid lightgray;
+}
+
+._services  li {
+  padding: 10px 0;
+}
+
+/* deployment list */
+main ._item img {
+  width: 30px;
+  margin-bottom: 10px;
+}
+/* end Deployment */
+
+/* Organization */
+._carousel {
+  margin-bottom: 30px;
+}
+
+._carousel img {
+  width: 100%;
+  margin: 20px;
+}
+
+._carousel > i {
+  display: none;
+}
+
+._carousel ._caption i {
+  font-size: 10px;
+}
+/* end Organization */
+
 /* END MAIN */
 
 
@@ -166,12 +226,17 @@ main a::after {
     font-size: 70px;
   }
 
+  .container-fluid {
+    padding-left: 15px;
+  }
+
   /* Maring & Padding */
   ._section {
     padding: 40px 0;
   }
 
   /* END COMMON */
+
 
   /* MAIN */
   /* Partners */
@@ -184,6 +249,25 @@ main a::after {
     width: 100%;
   }
   /* end Partners */
+
+  /* Deployment */
+  ._wrapper {
+    width: 80%;
+    margin: auto;
+  }
+  /* end Deployment */
+  ._carousel img {
+    width: 80%;
+    margin: 20px;
+  }
+
+  ._carousel > i {
+    font-size: 40px;
+    display: inline-block;
+  }
+  /* Organization */
+
+  /* end Organization */
   /* END MAIN */
 }
 /* END MEDIA QUERY */
