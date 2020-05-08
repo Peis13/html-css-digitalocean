@@ -276,7 +276,11 @@ main ._item img {
 /* end Development */
 
 /* Get started */
-
+#_get-started ._create {
+  font-size: 16px;
+  background-color: #fff;
+  margin-top: 20px;
+}
 /* end Get started */
 /* END MAIN */
 
