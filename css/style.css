@@ -33,6 +33,7 @@ h5,
 h6,
 ._slider ._arrow {
   color: #031c4e;
+  font-weight: 700;
 }
 
 main ._secondary h2,
@@ -43,6 +44,7 @@ main ._secondary h5 {
 
 ul {
   margin: 0;
+  padding: 0;
   list-style: none;
 }
 
@@ -109,7 +111,7 @@ a {
   box-shadow: 0 2px 5px lightgray;
 }
 
-._logo img {
+._nav ._logo img {
   height: 30px;
 }
 
@@ -284,6 +286,46 @@ main ._item img {
 /* end Get started */
 /* END MAIN */
 
+/* FOOTER */
+footer a {
+  color: inherit;
+}
+
+footer label {
+  color: #fff;
+}
+
+footer ._list-group > li:not(:first-child) {
+  padding-top: 20px;
+}
+
+footer ._caption {
+  color: inherit;
+  font-size: 14px;
+}
+
+footer ._logo {
+ margin-bottom: 10px;
+}
+
+._copy {
+  margin: 0;
+}
+
+._made-in {
+  font-size: 12px;
+  opacity: 0.7;
+}
+
+._sub-list {
+  font-size: 14px;
+}
+
+._sub-list li {
+  margin-bottom: 10px;
+}
+/* END FOOTER */
+
 
 /* MEDIA QUERY */
 
@@ -291,7 +333,6 @@ main ._item img {
 @media screen and ( min-width: 992px ) {
 
   /* COMMON */
-
   h1 {
     font-size: 70px;
   }
@@ -333,6 +374,7 @@ main ._item img {
 
 /* Lg */
 @media screen and ( min-width: 1200px ) {
+
   /* Development */
   #_development ._slider ._content {
     padding: 50px 10px;
