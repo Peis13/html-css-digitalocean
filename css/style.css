@@ -23,7 +23,15 @@ h5 {
   font-size: 16px;
 }
 
-h2, h3, h5 {
+h6 {
+  font-size: 14px;
+}
+
+h2,
+h3,
+h5,
+h6,
+._slider ._arrow {
   color: #031c4e;
 }
 
@@ -75,7 +83,6 @@ a {
   color: #ffffff80;
   background-color: #031c4e;
 }
-
 
 ._opaque {
   opacity: 0.7;
@@ -133,7 +140,7 @@ a {
 }
 
 
-._create {
+._form ._create {
   background-color: #2285fd;
 }
 
@@ -200,33 +207,40 @@ main ._item img {
 /* end Deployment */
 
 /* Organization and Development */
-._carousel {
+._slider {
   width: 70%;
   margin: auto;
+}
+
+._slider-main {
   position: relative;
 }
 
-._carousel img {
+._slider ._content {
   width: 80%;
+  margin: auto;
+}
+._slider img {
+  width: 100%;
   margin-bottom: 20px;
 }
 
-._carousel ._arrow {
+._slider ._arrow {
   font-size: 40px;
   position: absolute;
   top: 50%;
   transform: translateY( -50% );
 }
 
-._carousel ._arrow._left {
+._slider ._arrow._left {
   left: 0;
 }
-._carousel ._arrow._right {
+._slider ._arrow._right {
   right: 0;
 }
 
 ._current-img  li {
-  padding: 0;  
+  padding: 0;
 }
 
 ._current-img i {
@@ -255,8 +269,15 @@ main ._item img {
 /* end Cities */
 
 /* Development */
-
+#_development ._slider ._content {
+  padding: 30px 10px;
+  margin-bottom: 20px;
+}
 /* end Development */
+
+/* Get started */
+
+/* end Get started */
 /* END MAIN */
 
 
@@ -279,7 +300,6 @@ main ._item img {
   ._section {
     padding: 40px 0;
   }
-
   /* END COMMON */
 
 
@@ -297,6 +317,26 @@ main ._item img {
     margin: auto;
   }
   /* end Deployment */
+
+  /* Development */
+  ._slider ._content ._content-img {
+    width: 80%;
+    margin: auto;
+  }
+  /* end Development */
   /* END MAIN */
+}
+
+/* Lg */
+@media screen and ( min-width: 1200px ) {
+  /* Development */
+  #_development ._slider ._content {
+    padding: 50px 10px;
+  }
+  ._slider ._content ._content-img {
+    width: 50%;
+    margin: auto;
+  }
+  /* end Development */
 }
 /* END MEDIA QUERY */
